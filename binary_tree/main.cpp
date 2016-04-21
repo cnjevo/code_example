@@ -28,9 +28,9 @@ const int size_of_node = 10;
 int main(int argc, const char * argv[])
 {
     int number[size_of_node]={40, 60, 20, 50, 30, 10, 70, 45, 55, 52};
-    node* root=NULL;
+    node* root = NULL;
     
-    for (int i=0; i<size_of_node; i++)
+    for (int i = 0; i < size_of_node; i++)
     {
         if( addpt(&root, number[i]) )
         {
